@@ -25,39 +25,121 @@
 }
 body{
     line-height: 2rem;
-    margin: 0 7rem;
+    margin: 0 8rem;
 }
 a{
     text-decoration: none;
     color: #000000;
 }
 .container{
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position:sticky;
+    background: rgba(255, 255, 255, 0.623);
+    backdrop-filter: blur(20px); 
+    height: 100%;
 }
 .arrow{
     width: 7px;
     height: 7px;
-    margin-top: 1px;
-    margin-right: -10px;
-    
 }
 #navbar ul {
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
 }
 #navbar ul li{
+    position: relative;
     font-family: 'YekanBakhMedium';
     font-size: small;
     list-style: none;
-    margin: 0 1rem;
-    
+    margin: 0 1rem;   
 }
-#navbar ul li:last-child{
-    font-weight:600;
+.zarinpal-link{
+    font-family:'YekanBakhBold';
     background: #f1f5fe;
-    padding: 0.3rem 1.7rem;
-    border-radius: 25px;
+    padding: 0.7rem 1.7rem;
+    border-radius: 26px;
+    color: #1b2d5c;
+}
+.product-box{
+    position: absolute;
+    top: 40px;
+    right: -100px;
+    width: 372px;
+    background: #ffffff;
+    line-height: 2.5rem;
+    border-radius: 10px;
+    border-top: 5px solid #f8e88b;
+} 
+.product-box .products{
+    width: 100% ;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1.3rem;
+}
+.product-box .subtitle{
+    margin-top: -15px;
+    font-size: 11px;
+}
+.products .product-right{
+    width: 50%;
+}
+.products .sub-text:hover{
+    background: #f1f5fe;
+    border-radius: 10px;
+}
+#navbar .title{
+    font-size: 15px;
+}
+#navbar .product-box{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+#navbar ul li:hover .product-box{
+    opacity: 100;
+    visibility: visible;
+}
+#navbar .sub-box {
+    position: absolute;
+    display: inline-block;
+    top: 40px;
+    right: -40px;
+    width: 123px;
+    background: #ffffff;
+    line-height: 2.5rem;
+    border-radius: 10px;
+    border-top: 5px solid #f8e88b;
+    padding: 0.5rem 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+#navbar ul li:hover .sub-box{
+    opacity: 100;
+    visibility: visible;
+}
+#navbar .sub-box .more-menu:hover{
+    background: #f1f5fe;
+}
+.main-header{
+    display: flex;
+    font-family: 'YekanBakhMedium';
+    background: linear-gradient(135deg, #022275 0%,#2b4981 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: #ffffff;
+    border-radius: 20px;
+}
+.main-header .content-header{
+    display: flex;
+    flex-direction: column ;
+    width:50%;
+}
+.main-header .request-money{
+    background: url("../images/home.svg") center no-repeat;
+    width: 50%;
+    height: 700px;
 }
