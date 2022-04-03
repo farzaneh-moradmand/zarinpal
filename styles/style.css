@@ -143,3 +143,64 @@ a{
     width: 50%;
     height: 700px;
 }
+@media (max-width: 768px){
+    body{
+        margin: 0 0.5rem;
+    }
+    .links {
+        font-family: 'iranyekanwebregular';
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .headen-links .aplication{
+        margin-bottom: 1rem;
+    }
+    .links .headen-links{
+        padding: 4rem 0 0 1rem;
+    }
+    .links .headen-links li{
+        line-height: 2rem;
+        list-style: none;
+    }
+    .container{
+        height: 66px;
+    }
+    #navbar ul{
+        display: none;
+        opacity: 0;
+    }
+    /* #navbar .icon-menu{
+        background: url("../images/hamburger.svg") center no-repeat;
+        width: 100px;
+        height: 100px;
+    } */
+}
+@media (min-width: 769px) and (max-width: 991px){
+    body{
+        margin: 0 2.5rem;
+    }
+    .links {
+        visibility: hidden;
+        display: none;
+    }
+    #navbar .icon-menu{
+        visibility: hidden;
+        display: none;
+    }
+    #navbar .zarinpal-link{
+        visibility: hidden;
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    .links {
+        visibility: hidden;
+        display: none;
+    }
+    #navbar .icon-menu{
+        visibility: hidden;
+        display: none;
+    }
+}
+
