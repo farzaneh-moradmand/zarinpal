@@ -129,7 +129,7 @@ a{
 .main-header{
     display: flex;
     font-family: 'YekanBakhMedium';
-    background: linear-gradient(135deg, #022275 0%,#2b4981 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: linear-gradient(135deg, #081b4d 0%,#2b4981 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     color: #ffffff;
     border-radius: 20px;
 }
@@ -137,12 +137,48 @@ a{
     display: flex;
     flex-direction: column ;
     width:50%;
+    padding:  8rem 4.5rem 8rem 0;
 }
 .main-header .request-money{
-    background: url("../images/home.svg") center no-repeat;
     width: 50%;
     height: 700px;
+    padding: 8rem 1rem 0 5rem;
 }
+.main-header .header-title{
+    font-size: 21px;
+    line-height: 3rem;
+}
+.main-header .content-header p{
+    font-size: 18px;
+    line-height: 2.5rem;
+    margin-top: 1.5rem;
+}
+button {
+    margin-top: 4rem;
+    font-family: 'YekanBakhHeavy';
+    font-size: 15px;
+    padding: 4px 10px;
+    border-radius: 10px;
+    background-color: #f8e88b;
+    border: none;
+}
+.login-btn .login{
+    background-color: #ffdd1f;
+}
+.login-btn .btn{
+    background-color: #94a8c262;
+    margin-right: 6px;  
+}
+.btn a{
+    color: #ffffff; 
+}
+
+
+
+
+
+
+
 @media (max-width: 768px){
     body{
         margin: 0 0.5rem;
