@@ -32,6 +32,7 @@ a{
     color: #000000;
 }
 .container{
+    font-family: 'iranyekanwebmedium';
     padding: 2rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -144,23 +145,24 @@ a{
     height: 700px;
     padding: 8rem 1rem 0 5rem;
 }
-.main-header .header-title{
+.header-title{
     font-size: 21px;
     line-height: 3rem;
 }
 .main-header .content-header p{
     font-size: 18px;
     line-height: 2.5rem;
-    margin-top: 1.5rem;
+    margin: 1.5rem 0;
 }
 button {
-    margin-top: 4rem;
-    font-family: 'YekanBakhHeavy';
+    margin-top: 2rem;
+    font-family: 'YekanBakhMedium';
     font-size: 15px;
-    padding: 4px 10px;
+    padding: 5px 10px;
     border-radius: 10px;
-    background-color: #f8e88b;
+    background-color: #f5db48;
     border: none;
+    cursor: pointer;
 }
 .login-btn .login{
     background-color: #ffdd1f;
@@ -172,7 +174,40 @@ button {
 .btn a{
     color: #ffffff; 
 }
-
+.row{
+    display: grid;
+    font-family: 'YekanBakhMedium';
+    grid-template-columns: 1fr 1fr;
+    padding-top: 8rem;
+}
+.peyment-getway-picture img{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    padding-left: 8rem;
+    z-index: 100;
+} 
+.section-pg {
+    line-height: 2.5rem;
+    text-align: justify;
+}
+.section-pg p{
+    border-bottom: 1px solid #dfe1e4;
+    padding-bottom: 20px;
+    padding-left: 2rem;
+}
+.row .top-title h2{
+    font-family: 'YekanBakhMedium';
+    font-weight: 500;
+    color: #6a6b6e;
+}
+.read-more{
+    background-color: #94a8c262;
+    margin-right: 6px;    
+}
+.read-more img{
+    vertical-align: middle;
+}
 
 
 
