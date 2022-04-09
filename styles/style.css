@@ -179,6 +179,7 @@ button {
     font-family: 'YekanBakhMedium';
     grid-template-columns: 1fr 1fr;
     padding-top: 8rem;
+    margin-bottom: 8rem;
 }
 .peyment-getway-picture img{
     display: grid;
@@ -208,6 +209,62 @@ button {
 .read-more img{
     vertical-align: middle;
 }
+.readmore{
+   margin-top: 2rem;
+    width: 100%;
+    padding: 0 1rem;
+}
+.more{
+    font-family: 'YekanBakhMedium';
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.table-box .boxing{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 2rem 2rem 2rem;
+    position: relative;
+}
+.col-md-4 h2{
+    list-style: 2rem;
+    font-size: 30px;
+}
+.content-box-standard{
+    line-height: 2.5rem;
+    text-align: justify;
+    margin: 3rem 0 3rem 5rem;
+}
+.table-box {
+    border-collapse:collapse
+}
+.table-box .icon-default::before{
+    content: "";
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    right: -30px;
+}
+.table-box .verifiedIcon::before{
+    background: url("../images/verifiedIcon.svg") no-repeat;
+}
+.table-box .icons-split::before{
+    background: url("../images/splite.svg") no-repeat;
+}
+.table-box .icons-support::before{
+    background: url("../images/support.svg") no-repeat;
+}
+.table-box td{
+    padding: 1rem 4rem 2.5rem 1rem ;
+    border: solid 1px rgb(233, 227, 227);
+    border-collapse:collapse
+}
+.sub-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+
+
 
 
 
