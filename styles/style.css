@@ -235,7 +235,7 @@ button {
     margin: 3rem 0 3rem 5rem;
 }
 .table-box {
-    border-collapse:collapse
+    border-collapse:collapse;
 }
 .table-box .icon-default::before{
     content: "";
@@ -261,7 +261,104 @@ button {
 .sub-title{
     font-size: 1.5rem;
     font-weight: 600;
-    
+}
+.box{
+    margin-top: 4rem;
+}
+.join-box{
+    font-family: 'YekanBakhMedium';
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #d5d7db;
+    border-radius: 20px;
+    align-items: center;
+    padding: 3rem 0;
+}
+.title1{
+    font-family: 'YekanBakhHeavy';
+    line-height: 3rem;
+    font-size: 30px;
+}
+.title2{
+    font-size:22px;
+    line-height: 3rem;
+    color: #8d8e92;
+}
+.start-btn{
+    padding: 0 10px;
+    background:#ffdd1f;
+    border-radius: 10px;
+}
+.info{
+    margin-top: 3rem;
+    width: 100%;
+    font-family: 'YekanBakhHeavy';
+    font-size: 23px;
+    padding: 1rem;
+    background-color: #f8f2ed;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info-txt{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.request-support img{
+  vertical-align: middle;
+}
+.request-support a{
+    color: #032c77;
+}
+.info-txt .number{
+    color: #032c77;
+}
+#footer{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'iranyekanwebmedium';
+}
+.footer-box{
+    display: flex;
+}
+.footer-box li{
+    list-style: none;
+}
+.bold-title{
+    font-family: 'YekanBakhHeavy';
+    font-size: 20px;
+    line-height: 4rem;
+}
+.box1{
+    line-height: 2.5rem;
+}
+.box2{
+    line-height: 2.5rem;
+    padding: 0 2rem;
+}
+.social-box a{
+    margin: 0 3px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background: #dee8fa;
+}
+.social-box img{
+    width: 23px;
+    height: 23px;
+}
+.footer-social {
+    padding-left: 4rem;
+}
+.copyright{
+    text-align: center;
+    margin: 3rem 0;
+    font-family: 'iranyekanwebmedium';
+    font-size: 13px;
+
 }
 
 
