@@ -4,36 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>zarinpal</title>
 </head>
 <body>
    <header>
-       <div class="links">
-            <div class="headen-links">
-            <ul>
-                <li><a href="#"></a>تعرفه ها</li>
-                <li class="aplication"><a href="#"></a>اپلیکیشن</li>
-                <li><a href="#"></a>سوالات متداول</li>
-                <li><a href="#"></a>محصولات</li>
-                <li><a href="#"></a>تماس با ما</li>
-                <li><a href="#" class="zarinpal-link">زرین پال من</a></li>
-            </ul>
-        </div>
-            <img src="./images/cross.svg" alt="cross">
-         </div>
-       </div>
-       <div class="container sticky">
-           <div class="logo.white">
-               <img src="./images/logo-white.svg" alt="logo-picture" >
+           <div>
+               <img class="logo" src="./images/logo-white.svg" alt="zarinpal-logo" >
            </div>
            <nav id="navbar">
-               <div class="icon-menu">
-                   <img src="./images/hamburger.svg" alt="hamburger-menu">
-               </div>
-               <ul>
-                <li class="sub"><a href="#">محصولات
+               <ul class="header-ul">
+                <li class="more-menu" id="show-product-menu">
+                    <a href="#">محصولات
                     <img src="./images/down-arrow-svgrepo-com.svg" class="arrow" alt="own-arrow-svgrepo">
                 </a>
                 <div class="product-box">
@@ -62,18 +45,15 @@
                                 <a href="#"><p class="title">تسهیم</p>
                           <p class="subtitle">درگاه پرداخت اشتراکی</p></a>
                               </div>
-
                     </div>
                 </div>
-
                 </div>
-
                 </li>
                 <li><a href="#">تعرفه ها</a></li>
                 <li> <a href="#">توسعه دهندگان</a></li>
                 <li> <a href="">تماس با ما</a></li>
-                <li ><a href="#">بیش تر
-
+                <li class="more-menu" id="show-more-menu">
+                    <a href="#">بیش‌تر
                     <img src="./images/down-arrow-svgrepo-com.svg"  class="arrow" alt="own-arrow-svgrepo">
                       
                     <ul class="sub-box">
@@ -84,12 +64,36 @@
                         <li class="more-menu"><a href="#"> زرین بین</a></li>
                     </ul>
                  </a></li> 
-                <li><a href="#" class="zarinpal-link">زرین پال من</a></li>
+                <li><a href="#">زرین پال من</a></li>
                
                </ul>
            </nav>
- 
-       </div>
+            <img src="./images/hamburger.svg" class="hamburger-icon" alt="hamburger icon">
+
+                   <div class="hamburger-menu">
+                       <div class="cross-icon">      
+                           <img src="./images/cross.svg" alt="cross">
+                       </div>
+            <div class="hamburger-menu-items">
+            <ul>
+                <li><a href="#"></a>تعرفه ها</li>
+                <li><a href="#"></a>اپلیکیشن</li>
+                <div></div>
+                <li><a href="#"></a>سوالات متداول</li>
+                <li><a href="#"></a>محصولات</li>
+                <li><a href="#"></a>تماس با ما</li>
+            </ul>
+        </div> 
+                <div class="more-item">
+                    <a href="#" class="zarinpal-link">زرین پال من</a>
+                    <img src="./images/arrow.svg" alt="arrow">
+                </div>
+                <li></li>
+            
+        
+        </div>
+      
+    </header>
        <section class="main-header" >
            <div class="content-header">
                <div class="header-title">
@@ -108,7 +112,7 @@
 
            </div>
        </section>
-   </header>
+  
    <section class="row" >
     <div class="peyment-getway-picture center">
        
@@ -337,6 +341,6 @@
    <div class="copyright">
     <span>© ‌‌زرین‌پال ۱۴۰۰-۱۳۸۹</span>
 </div>
-    
+    <script src="./js/script.js"></script>
 </body>
 </html>
